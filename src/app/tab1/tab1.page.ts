@@ -53,7 +53,7 @@ export class Tab1Page {
   }
 
   async removeItem(item, index) {
-    console.log("Removing Item - ", item);
+    console.log("Removing Item  - ", item);
     //toast pop up notifying item removal
     const toast = await this.toastController.create({
       message: 'Removing ' + item.name + " at index " + index,
